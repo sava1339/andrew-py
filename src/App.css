@@ -391,6 +391,11 @@
         width: 8vw;
     }
 }
+@media screen and (max-width: 1408px) {
+    .snake-content-bottom-add,.snake-portfolio-bottom-add,.snake-contacts-add{
+        display: none;
+    }
+}
 @media screen and (max-width: 1020px) {
     .contacts{
         top:20em;
