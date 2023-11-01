@@ -86,7 +86,7 @@ function App() {
                     <div className="snake snake-content-bottom-add"></div>
                     <img className="photo" src={httpURL+"photo.webp"}></img>
                     <div className="photo-text">
-                        <h1 className="name">Андрей Дремковым</h1>
+                        <h1 className="name">Андрей Дремков</h1>
                         <p className="subname-text">
                             Приятно, граждане, наблюдать, как ключевые особенности структуры проекта превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.
                         </p>
