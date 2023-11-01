@@ -393,7 +393,7 @@
 }
 @media screen and (max-width: 1408px) {
     .snake-content-bottom-add,.snake-portfolio-bottom-add,.snake-contacts-add{
-        display: none;
+        width:  calc(100vw - 1408px);
     }
     .snake-content-bottom{
         max-width: calc(100vw + 5em);
