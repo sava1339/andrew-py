@@ -397,7 +397,7 @@
         display: none;
     }
     .snake-content-bottom{
-        width: calc(100vw - 5em);
+        width: 100vw;
     }
 }
 @media screen and (max-width: 1020px) {
