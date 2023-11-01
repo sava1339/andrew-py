@@ -398,7 +398,6 @@
     }
     .snake-content-bottom{
         width: 100vw + 5em;
-        max-width: 100vw - 5em;
     }
 }
 @media screen and (max-width: 1020px) {
