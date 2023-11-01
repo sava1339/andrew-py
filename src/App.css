@@ -277,10 +277,11 @@
 }
 .snake-content-bottom{
     height: 52px;
-    width: 150%;
+    width: 100%;
     background: #FFD342;
     bottom: -5em;
-    left: -5em;
+    right: 0;
+    padding-right: 5em;
     border-radius: 0 0 0 30px;
 }
 .snake-content-bottom-add{
@@ -395,9 +396,6 @@
     .snake-content-bottom-add,.snake-portfolio-bottom-add,.snake-contacts-add{
         right: 0;
         display: none;
-    }
-    .snake-content-bottom{
-        width: 100vw + 5em;
     }
 }
 @media screen and (max-width: 1020px) {
