@@ -394,7 +394,7 @@
 @media screen and (max-width: 1408px) {
     
     .snake-content-bottom{
-        max-width: calc(100vw - 1408px);
+        max-width: calc(1408px - 100vw);
     }
 }
 @media screen and (max-width: 1020px) {
