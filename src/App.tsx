@@ -1,5 +1,6 @@
 import './App.css'
 import {useEffect} from "react";
+import { httpURL } from './http/http';
 
 interface projectInterface {
     id:number,
@@ -83,7 +84,7 @@ function App() {
                     <div className="snake snake-content-left-add"></div>
                     <div className="snake snake-content-bottom"></div>
                     <div className="snake snake-content-bottom-add"></div>
-                    <img className="photo" src="http://localhost:5173/photo.webp"></img>
+                    <img className="photo" src={httpURL+"photo.webp"}></img>
                     <div className="photo-text">
                         <h1 className="name">Андрей Дремковым</h1>
                         <p className="subname-text">
@@ -101,10 +102,10 @@ function App() {
                 <div className="portfolio-block hidden">
                     {projects.map((el:projectInterface)=>
                         <div key={el.id} className="project">
-                            <div style={{background: `url(http://localhost:5173/${el.image})`}} className="project-image">
+                            <div style={{background: `url(${httpURL}${el.image})`}} className="project-image">
                                 
                             </div>
-                            <div style={{background: `url(http://localhost:5173/${el.image})`}} className="project-back-image"></div>
+                            <div style={{background: `url(${httpURL}${el.image})`}} className="project-back-image"></div>
                             <p className="project-name">{el.name}</p>
                             <p className="project-desc">{el.desc}</p>
                             <p className="project-stack">{el.stack}</p>
