@@ -1,1 +1,1 @@
-export const httpURL = "https://andrew-java.netlify.app/"
+export const httpURL = "https://andrew-py.netlify.app/"
