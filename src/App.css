@@ -396,7 +396,7 @@
         display: none;
     }
     .snake-content-bottom{
-        overflow-x: hidden;
+        max-width: 100vw;
     }
 }
 @media screen and (max-width: 1020px) {
