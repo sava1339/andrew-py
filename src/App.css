@@ -395,6 +395,9 @@
     .snake-content-bottom-add,.snake-portfolio-bottom-add,.snake-contacts-add{
         display: none;
     }
+    .snake-content-bottom{
+        overflow-x: hidden;
+    }
 }
 @media screen and (max-width: 1020px) {
     .contacts{
